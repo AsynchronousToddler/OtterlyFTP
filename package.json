@@ -1,0 +1,30 @@
+{
+  "name": "s3-ftp-server",
+  "version": "0.1.0",
+  "description": "A Node.js based FTP interface for AWS S3",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsynchronousToddler/node-s3-ftp-server.git"
+  },
+  "keywords": [
+    "s3",
+    "aws",
+    "ftp",
+    "server",
+    "ftpd"
+  ],
+  "author": "Liara A. M. Roervig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AsynchronousToddler/node-s3-ftp-server/issues"
+  },
+  "homepage": "https://github.com/AsynchronousToddler/node-s3-ftp-server#readme",
+  "dependencies": {
+    "aws-sdk": "^2.175.0",
+    "winston": "^2.4.0"
+  }
+}
